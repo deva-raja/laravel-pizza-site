@@ -1,0 +1,15 @@
+---
+application:
+  name: "laravel-pizza-site"
+  project: "Pizza House"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "pizzas"
+  version: "8.0"
+routers:
+- name: "main-laravel-pizza-site"
+  routes:
+  - application_name: "laravel-pizza-site"
+    paths:
+    - "/*"
